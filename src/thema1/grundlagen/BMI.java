@@ -12,14 +12,16 @@ public class BMI {
 		String name = scanner.next();
 		
 		System.out.println("Wie viel wiegst du in Kg?");
-		double weght = scanner.nextDouble(); 
+		double weight = scanner.nextDouble(); 
 		
 		System.out.println("Wie gross bist du in Meter?");
-		double hight = scanner.nextDouble(); 
+		double height = scanner.nextDouble(); 
 		
-		double BMI = weght / (hight*hight);
+		double BMI = weight / (height*height);
 	
-		System.out.println("Privet " + name + " dein BMI ist " + BMI + " Du wiegst " + weght + " Kg" + " Und deine Größe ist " + hight + " cm " );
+		System.out.println("Privet " + name + " dein BMI ist " + BMI + " Du wiegst " + weight + " Kg" + " Und deine Größe ist " + height + " cm " );
+		
+		scanner.close();
 	}
 
 }

@@ -19,6 +19,8 @@ public class BmiCalculator {
 		double bmi = weight / (height*height);
 		System.out.println("Your Calculated BMI is " + bmi );
 		
+		System.out.println("Privet "  + "dein BMI ist "  + " Du wiegst " + weight + " Kg" + " Und deine Größe ist " + height + " cm " );
+		
 		scanner.close();
 
 	}
